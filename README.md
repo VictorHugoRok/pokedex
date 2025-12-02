@@ -1,3 +1,10 @@
+# PokeDex 
+
+Una App desarrollada con React, como parte de un curso impartido en la Facultad de Matematicas, con una duracion aproximada de 2 horas. Se desarrollo la aplicacion de PokeDex usando la Poke Api, tecnologia React,
+![WhatsApp Image 2025-12-02 at 1 50 55 PM](https://github.com/user-attachments/assets/c77c92a5-67d3-4cd7-af3a-710c77220d14)
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
