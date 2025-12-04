@@ -13,7 +13,7 @@ function App() {
 //Funcion para obetner lista de datos
   const getPokemonList = () => {
     setTimeout(() => {
-      fetch('https://pokeapi.co/api/v2/pokemon')
+      fetch('https://pokeapi.co/api/v2/pokemon?limit=150')
       .then(res => res.json())
       .then(data => setPokemonListData(data.results))
     })
