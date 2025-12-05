@@ -56,6 +56,11 @@ const typeColor = {
     }, 1500)
   }
 
+    const fetchPokemon = async () => {
+    const offset = page * limitPage;
+    }
+
+
   const sotedList = pokemonListData.sort((a, b) => a.name.localeCompare(b.name))
 
   const mainType = pokemonDisplayData?.types?.[0]?.type?.name;
@@ -63,7 +68,7 @@ const typeColor = {
 
    useEffect(() => {
     fetchPokemon();
-  }, [page]);
+  }, [page])
 
 
   const nextPage = () => {
@@ -105,6 +110,10 @@ const typeColor = {
         Catch them all!
       </button>
 
+      <button className = "next-button" onClick = {nextPage}>
+        Siguiente pagina
+      </button>
+
       <ul className="pokedex-info">
         {pokemonListData.map((pk) => (
           <li key={pk.name} onClick={() => getPokemonByName(pk.name)}>
@@ -115,4 +124,5 @@ const typeColor = {
     </div>
   );
 }
-export default App;
+
+export default App
