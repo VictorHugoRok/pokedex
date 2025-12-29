@@ -63,3 +63,10 @@
   cursor: pointer;
 }
 
+.next-button{
+  background-color: lightgreen;
+  width: 150px;
+  height: 100px;
+  overflow: auto;
+}
+
