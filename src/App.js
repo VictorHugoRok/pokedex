@@ -110,9 +110,6 @@ const typeColor = {
         Atrapa tu pokemon
       </button>
 
-      <button className = "next-button" onClick = {nextPage}>
-        Siguiente pagina
-      </button>
 
       <ul className="pokedex-info">
         {pokemonListData.map((pk) => (
