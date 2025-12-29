@@ -86,7 +86,7 @@ const typeColor = {
       </div>
 
       <button className="pokedex-button" onClick={getPokemonList}>
-        Catch them all!
+        Atrapa tu pokemon
       </button>
 
       <ul className="pokedex-info">
