@@ -12,7 +12,7 @@ function About() {
             La Pokedex es una enciclopedia digital de alta tecnologia que los entrenadores
             Pokemon utilizan para registrar y obtener informacion sobre las diferentes
             especies de Pokemon que encuentran. No se que hiceaaajajansndsnsdan
-          </p>
+          </p>mmk
         </div>
         <div className="about-card">
           <h2>Nuestra Mision</h2>
